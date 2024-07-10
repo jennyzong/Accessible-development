@@ -44,7 +44,7 @@ ul {
 .nav-link {
     margin: 5px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .nav-links {
     display: flex;
@@ -57,7 +57,7 @@ ul {
     margin: 120px auto 200px;
 }
 .hero-heading {
-    font-size: 80px;
+    font-size: 5rem;
     font-weight: 700;
     margin: 0;
 }
@@ -67,7 +67,7 @@ ul {
     line-height: 1;
 }
 .hero-text {
-    font-size: 20px;
+    font-size: 1.25rem;
     max-width: 300px;
     margin-bottom: 30px;
 }
@@ -94,7 +94,7 @@ ul {
     margin-left: 200px;
 }
 .info-heading {
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0;
 }
 .info a {
@@ -119,12 +119,12 @@ ul {
 }
 .stat-heading {
     color: #cccccc;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 0;
 }
 .stat-number {
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 20px;
@@ -149,7 +149,7 @@ ul {
 }
 .about-heading {
     margin: 0;
-    font-size: 48px;
+    font-size: 3rem;
 }
 .about span {
     color: #007000;
@@ -166,11 +166,11 @@ ul {
 
 /* Sign Up Form */
 .form-heading {
-    font-size: 48px;
+    font-size: 3rem;
     margin: 0;
 }
 .form-intro {
-    font-size: 20px;
+    font-size: 1.25rem;
     margin-bottom: 20px;
 }
 .form-section {
@@ -219,7 +219,7 @@ ul {
 }
 .social-links p {
     display: inline;
-    font-size: 16px;
+    font-size: 1rem;
 }
 .social-links ion-icon {
     padding-right: 10px;
@@ -230,10 +230,8 @@ ul {
 }
 
 /* 
-Challenge: Change all font-size properties from px to rem.
-
-Here's some helpful conversions for default settings:
-1rem = 16px.
-1.5rem = 24px.
-2rem = 32px.
+Challenge: Apply headings correctly throughout the html. Make sure of the following:
+1. There's one h1 heading. No more, no less.
+2. Heading levels are not skipped.
+3. Headings always introduce new content sections. A heading for some content should never be a <p> or a <div>.
 */
